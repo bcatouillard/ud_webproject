@@ -1,6 +1,6 @@
 # ud_webproject
 
-A new Flutter project.
+A web Flutter Application for Udemy
 
 ## Getting Started
 
