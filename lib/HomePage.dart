@@ -196,6 +196,212 @@ class _HomeState extends State<Home> {
               ]
             ),
           ),
+        
+          // third container
+
+          new SizedBox(height: 10.0),
+
+          new Container(
+            margin: EdgeInsets.all(10.0),
+            width: MediaQuery.of(context).size.width,
+            child: new Column(
+              children: <Widget>[
+
+                new Container(
+                  height: 50.0,
+                  padding: EdgeInsets.all(7.0),
+                  decoration: new BoxDecoration(
+                    borderRadius: BorderRadius.circular(15.0),
+                    color: Colors.brown
+                  ),
+                  child: new Text("Our Team", style: TextStyle(fontSize: 18.0,color: Colors.white),),
+                ),
+
+                new SizedBox(height: 10.0,),
+
+                new Container(
+                  margin: EdgeInsets.all(10.0),
+                  height: 350.0,
+                  width: 1250.0,
+                  child: new ListView(
+                    scrollDirection: Axis.horizontal,
+                    children: <Widget>[
+
+                      new Container(
+                        height: 350.0,
+                        width: 250.0,
+                        color: Colors.indigo,
+                        child: new Column(
+                          children: <Widget>[
+                            new Container(
+                              height: 150.0,
+                              width: 250.0,
+                              margin: EdgeInsets.all(10.0),
+                              decoration: new BoxDecoration(
+                                borderRadius: BorderRadius.circular(15.0),
+                                image: new DecorationImage(
+                                  image: AssetImage("default.jpg"),
+                                )
+                              ),
+                            ),
+
+                            new SizedBox(height: 6.0,),
+
+                            new Container(
+                              margin: EdgeInsets.all(4.0),
+                              child: new Text("Lorem ipsum dolor", 
+                                style: TextStyle(fontSize: 20.0, color: Colors.white),
+                              ),
+                            ),
+
+                            new SizedBox(height: 6.0,),
+
+                            new Container(
+                              margin: EdgeInsets.all(4.0),
+                              child: new Text("a long established fact", 
+                                style: TextStyle(fontSize: 15.0, color: Colors.white),
+                              ),
+                            ),
+
+                            new SizedBox(width: 10.0,),
+                          ],
+                        ),
+                      ),
+
+                      new SizedBox(width: 10.0,),
+
+                      new Container(
+                        height: 350.0,
+                        width: 250.0,
+                        color: Colors.green,
+                        child: new Column(
+                          children: <Widget>[
+                            new Container(
+                              height: 150.0,
+                              width: 250.0,
+                              margin: EdgeInsets.all(10.0),
+                              decoration: new BoxDecoration(
+                                borderRadius: BorderRadius.circular(15.0),
+                                image: new DecorationImage(
+                                  image: AssetImage("default.jpg"),
+                                )
+                              ),
+                            ),
+
+                            new SizedBox(height: 6.0,),
+
+                            new Container(
+                              margin: EdgeInsets.all(4.0),
+                              child: new Text("Lorem ipsum dolor", 
+                                style: TextStyle(fontSize: 20.0, color: Colors.white),
+                              ),
+                            ),
+
+                            new SizedBox(height: 6.0,),
+
+                            new Container(
+                              margin: EdgeInsets.all(4.0),
+                              child: new Text("a long established fact", 
+                                style: TextStyle(fontSize: 15.0, color: Colors.white),
+                              ),
+                            ),
+
+                            new SizedBox(width: 10.0,),
+                          ],
+                        ),
+                      ),
+                    
+                      new SizedBox(width: 10.0,),
+
+                      new Container(
+                        height: 350.0,
+                        width: 250.0,
+                        color: Colors.purple,
+                        child: new Column(
+                          children: <Widget>[
+                            new Container(
+                              height: 150.0,
+                              width: 250.0,
+                              margin: EdgeInsets.all(10.0),
+                              decoration: new BoxDecoration(
+                                borderRadius: BorderRadius.circular(15.0),
+                                image: new DecorationImage(
+                                  image: AssetImage("default.jpg"),
+                                )
+                              ),
+                            ),
+
+                            new SizedBox(height: 6.0,),
+
+                            new Container(
+                              margin: EdgeInsets.all(4.0),
+                              child: new Text("Lorem ipsum dolor", 
+                                style: TextStyle(fontSize: 20.0, color: Colors.white),
+                              ),
+                            ),
+
+                            new SizedBox(height: 6.0,),
+
+                            new Container(
+                              margin: EdgeInsets.all(4.0),
+                              child: new Text("a long established fact", 
+                                style: TextStyle(fontSize: 15.0, color: Colors.white),
+                              ),
+                            ),
+
+                            new SizedBox(width: 10.0,),
+                          ],
+                        ),
+                      ),
+                    
+                      new SizedBox(width: 10.0,),
+
+                      new Container(
+                        height: 350.0,
+                        width: 250.0,
+                        color: Colors.orange,
+                        child: new Column(
+                          children: <Widget>[
+                            new Container(
+                              height: 150.0,
+                              width: 250.0,
+                              margin: EdgeInsets.all(10.0),
+                              decoration: new BoxDecoration(
+                                borderRadius: BorderRadius.circular(15.0),
+                                image: new DecorationImage(
+                                  image: AssetImage("default.jpg"),
+                                )
+                              ),
+                            ),
+
+                            new SizedBox(height: 6.0,),
+
+                            new Container(
+                              margin: EdgeInsets.all(4.0),
+                              child: new Text("Lorem ipsum dolor", 
+                                style: TextStyle(fontSize: 20.0, color: Colors.white),
+                              ),
+                            ),
+
+                            new SizedBox(height: 6.0,),
+
+                            new Container(
+                              margin: EdgeInsets.all(4.0),
+                              child: new Text("a long established fact", 
+                                style: TextStyle(fontSize: 15.0, color: Colors.white),
+                              ),
+                            ),
+
+                            new SizedBox(width: 10.0,),
+                          ],
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ],
+            ),
+          ),
         ],
       ),
     );
