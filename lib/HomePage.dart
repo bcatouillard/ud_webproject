@@ -58,7 +58,144 @@ class _HomeState extends State<Home> {
                  )
               ]
             ),
-            )
+            ),
+        
+          // second container
+          new SizedBox(height: 7.0,),
+
+          new Container(
+            margin: EdgeInsets.all(10.0),
+            height: 400.0,
+            width: MediaQuery.of(context).size.width,
+            child: new Row(
+              children: <Widget>[
+                  new Expanded(
+                    flex: 1,
+                    child: new Container(
+                      height: 390.0,
+                      color: Colors.indigo,
+                      child: new Column(
+                          children: <Widget>[
+
+                            new Container(
+                                height: 150.0,
+                                width: 150.0,
+                                margin: EdgeInsets.all(10.0),
+                                decoration: new BoxDecoration(
+                                  borderRadius: new BorderRadius.circular(25.0),
+                                  image: DecorationImage(image: AssetImage("default.jpg")),
+                                ),
+                            ),
+
+                            new SizedBox(height: 10.0,),
+
+                            new Container(
+                              margin: EdgeInsets.all(10.0),
+                              child: Text("Lorem ipsum dolor",
+                                style: TextStyle(color: Colors.white, fontSize: 20.0),
+                              ),
+                            ),
+
+                            new SizedBox(height: 5.0,),
+
+                            new Container(
+                              margin: EdgeInsets.only(left:10.0),
+                              child: Text("A long established fact", 
+                                    style: TextStyle(color: Colors.white, fontSize: 15.0),        
+                              ),
+                            ),
+                          ],
+                      ),
+                    ),
+                  ),
+
+                  new SizedBox(width: 10.0),
+                  
+                  new Expanded(
+                    flex: 1,
+                    child: new Container(
+                      height: 390.0,
+                      color: Colors.purple,
+                      child: new Column(
+                          children: <Widget>[
+
+                            new Container(
+                                height: 150.0,
+                                width: 150.0,
+                                margin: EdgeInsets.all(10.0),
+                                decoration: new BoxDecoration(
+                                  borderRadius: new BorderRadius.circular(25.0),
+                                  image: DecorationImage(image: AssetImage("default.jpg")),
+                                ),
+                            ),
+
+                            new SizedBox(height: 10.0,),
+
+                            new Container(
+                              margin: EdgeInsets.all(10.0),
+                              child: Text("Lorem ipsum dolor",
+                                style: TextStyle(color: Colors.white, fontSize: 20.0),
+                              ),
+                            ),
+
+                            new SizedBox(height: 5.0,),
+
+                            new Container(
+                              margin: EdgeInsets.only(left:10.0),
+                              child: Text("A long established fact", 
+                                    style: TextStyle(color: Colors.white, fontSize: 15.0),        
+                              ),
+                            ),
+                          ],
+                      ),
+                    ),
+                  ),
+
+                  new SizedBox(width: 10.0,),
+                  
+                  new Expanded(
+                    flex: 1,
+                    child: new Container(
+                      height: 390.0,
+                      color: Colors.deepOrange,
+                      child: new Column(
+                          children: <Widget>[
+
+                            new Container(
+                                height: 150.0,
+                                width: 150.0,
+                                margin: EdgeInsets.all(10.0),
+                                decoration: new BoxDecoration(
+                                  borderRadius: new BorderRadius.circular(25.0),
+                                  image: DecorationImage(image: AssetImage("default.jpg")),
+                                ),
+                            ),
+
+                            new SizedBox(height: 10.0,),
+
+                            new Container(
+                              margin: EdgeInsets.all(10.0),
+                              child: Text("Lorem ipsum dolor",
+                                style: TextStyle(color: Colors.white, fontSize: 20.0,),
+                              ),
+                            ),
+
+                            new SizedBox(height: 5.0,),
+
+                            new Container(
+                              margin: EdgeInsets.only(left:10.0),
+                              child: Text("A long established fact", 
+                                    style: TextStyle(color: Colors.white, fontSize: 15.0),        
+                              ),
+                            ),
+                          ],
+                      ),
+                    ),
+                  ),
+
+              ]
+            ),
+          ),
         ],
       ),
     );
